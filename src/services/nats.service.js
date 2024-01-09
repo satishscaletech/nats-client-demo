@@ -14,7 +14,6 @@ let isConnected = false; // to track the connection status
 
 /**
  * Function to establish a connection to the WebSocket
- * @param userEmail
  * @returns
  */
 export const connectNatsWebSocket = async () => {
